@@ -83,7 +83,7 @@ class Game extends React.Component {
     super();
     this.state = {
       history: [{
-        squares: Array.fill(null),
+        squares: Array(9).fill(null),
       }],
       xIsNext: true,
     }
